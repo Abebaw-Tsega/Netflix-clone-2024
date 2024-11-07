@@ -7,6 +7,9 @@
   --primary-color: #ffffff;
   --secondary-color: #e50914;
 }
+html{
+  /* font-size: 62.5%; */
+}
 
 * {
   margin: 0;

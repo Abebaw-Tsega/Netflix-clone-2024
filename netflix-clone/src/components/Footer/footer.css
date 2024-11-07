@@ -28,6 +28,12 @@
   justify-content: space-around;
   height: 12vh;
 }
+.footer_data a{
+  color: gray;
+}
+.footer_data a::-moz-focus-outer{
+  color: red;
+}
 
 .footer_data ul li {
   cursor: pointer;
