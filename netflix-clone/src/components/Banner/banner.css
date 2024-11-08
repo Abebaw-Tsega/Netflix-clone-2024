@@ -1,7 +1,7 @@
 .banner {
   /* margin-top: 10vh; */
   height: 80vh;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   color: white;
   object-fit: contain;
   display: flex;
@@ -48,11 +48,14 @@
   transition: all 0.2s;
 }
 .banner_fadeBottom {
-  height: 40vh;
-  border-image: linear-gradient(
+  height: 20vh;
+  background: linear-gradient(
     180deg,
-    transparent,
-    rgba(37, 37, 37, 0.9),
-    #111
+    /* transparent, */
+    /* rgba(37, 37, 37, 0.9), */
+    #141313
   );
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

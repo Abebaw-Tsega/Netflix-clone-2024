@@ -8,7 +8,7 @@ function Banner() {
  useEffect(() => {
   (async () => {
     try {
-      const request = await axios.get(requests.fetchNetflixOriginals);
+      const request = await axios.get(requests.fetchTrending);
       const movies = request.data.results;
       
       if (movies && movies.length > 0) {
@@ -17,7 +17,7 @@ function Banner() {
         console.log("No movies found.");
       }
       
-      console.log("Fetched movies:", movies);
+      // console.log("Fetched movies:", movies);
     } catch (error) {
       console.log("Error fetching movies:", error);
     }
